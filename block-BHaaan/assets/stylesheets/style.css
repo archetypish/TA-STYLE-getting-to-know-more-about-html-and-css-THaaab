@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom CSS */
+
+/* Global Properties */
+
+.post-img {
+  width: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #c786c7;
+  padding: 14px 0;
+}
+
+.nav {
+  text-align: center;
+}
+
+.link,
+.date {
+  color: #2745ed;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav .link {
+  margin-right: 12px;
+}
+
+.nav .link:last-child {
+  margin-right: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.date {
+  margin: 12px 0;
+  display: block;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.post p {
+  margin-bottom: 12px;
+}
+
+.post {
+  border-bottom: 2px solid #c8c8c8;
+  padding-bottom: 12px;
+}
+
+.post:last-child {
+  border: none;
+  /* padding: 0; */
+}
+
+.footer {
+  background-color: #9090e7;
+  text-align: center;
+  padding: 12px 0;
+}
